@@ -87,7 +87,7 @@ div#container div#redesSociais div#links {
 div#container div#redesSociais div#links a {
     animation: none;
     background: none;
-    transition: background .5s ease-in-out;
+    transition: background .1s ;
 }
 
 div#container div#redesSociais div#links a:hover {
@@ -104,6 +104,10 @@ div#container div#redesSociais a i {
 @media (width < 40rem) {
     html {
         font-size: 70%;
+    }
+
+    div#container {
+        width: 100%;
     }
 }
 
