@@ -19,4 +19,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-<p>Link do projeto: <a href="https://moisesbarsoti.github.io/Portifolio/">Clique aqui</a><p>
+<p>Link do projeto: <a href="https://moisesbarsoti.github.io/landingPage-Pizzaria/">Clique aqui</a><p>
