@@ -121,7 +121,10 @@ div#container div#redesSociais a i {
 
 h1,
 p,
-a {
+a,
+h2,
+div#links
+ {
     animation: aparecer 1s backwards;
 }
 
@@ -135,4 +138,12 @@ p {
 
 a {
     animation-delay: 1.4s;
+}
+
+div#redesSociais h2 {
+    animation-delay: 2s;
+}
+
+div#links {
+    animation-delay: 2s;
 }
