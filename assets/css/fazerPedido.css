@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #fff;
+    --black: #080808;
+    --pink: #ff5563;
+    --pink-100: #e93a48;
+    --transaparente-100: rgba(255, 255, 255, 0.4);
+    --transaparente-400: rgba(255, 255, 255, 0.4);
+}
+
+body {
+    background: url("../img/bg-pizza.jpg") no-repeat top center/cover;
+    backdrop-filter: blur(.3rem);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 3rem;
+    background: var(--transaparente-400);
+    width: 100%;
+}
+
+div#container h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+div#container h1 span {
+    font-size: 5rem;
+    line-height: 1.2;
+    color: var(--pink);
+}
+
+div#container p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+div#container a {
+    color: var(--preto);
+    background-color: var(--pink);
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    transition: background .5s;
+}
+
+div#container a:hover {
+    background-color: var(--pink-100);
+}
+
+/* Footer */
+
+footer a {
+    position: absolute;
+    right: 71rem;
+}
+
+/* Responsividade */
+
+@media (width < 40rem) {
+    html {
+        font-size: 70%;
+    }
+
+    div#container {
+        width: 100%;
+    }
+
+    footer a {
+        position: absolute;
+        right: 25rem;
+    }
+}
+
+/* Animações */
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+}
+
+h1,
+p,
+a,
+h2,
+div#links
+ {
+    animation: aparecer 1s backwards;
+}
+
+h1 {
+    animation-delay: 0.2s;
+}
+
+p {
+    animation-delay: 0.8s;
+}
+
+a {
+    animation-delay: 1.4s;
+}
+
+div#redesSociais h2 {
+    animation-delay: 2s;
+}
+
+div#links {
+    animation-delay: 2s;
+}
