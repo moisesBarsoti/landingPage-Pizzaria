@@ -111,6 +111,19 @@ div#container div#redesSociais a i {
     }
 }
 
+
+/* Endereço */
+
+div#container div#endereco {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+
 /* Animações */
 
 @keyframes aparecer {
@@ -123,7 +136,8 @@ h1,
 p,
 a,
 h2,
-div#links
+div#links,
+div#endereco
  {
     animation: aparecer 1s backwards;
 }
@@ -148,13 +162,6 @@ div#links {
     animation-delay: 2s;
 }
 
-
-/* Endereço */
-
-div#container div#endereco {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1rem;
+div#endereco {
+    animation-delay: 2.3s;
 }
