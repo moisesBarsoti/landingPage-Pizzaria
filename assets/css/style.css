@@ -147,3 +147,14 @@ div#redesSociais h2 {
 div#links {
     animation-delay: 2s;
 }
+
+
+/* Endereço */
+
+div#container div#endereco {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
