@@ -1,7 +1,8 @@
 
 <h1 align="center"> Landing Page de Pizzaria </h1>
 
-![image](https://github.com/user-attachments/assets/62b222b2-5c93-4311-9ccd-67b5d5f72189)
+![image](https://github.com/user-attachments/assets/e99c9eef-7a76-4646-b6d2-013e0277d648)
+
 
 
 
